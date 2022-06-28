@@ -20,7 +20,7 @@ for(var i=0; themeDots.length > i; i++){
 
 function setTheme(mode){
     if(mode === 'light'){
-        document.getElementById('theme-style').href = 'staticfiles/css/lght.css'
+        document.getElementById('theme-style').href = 'staticfiles/css/light.css'
     }
 
     if(mode === 'blue'){
