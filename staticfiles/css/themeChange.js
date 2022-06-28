@@ -20,19 +20,19 @@ for(var i=0; themeDots.length > i; i++){
 
 function setTheme(mode){
     if(mode === 'light'){
-        document.getElementById('theme-style').href = '/staticfiles/css/light.css'
+        document.getElementById('theme-style').href = 'staticfiles/css/lght.css'
     }
 
     if(mode === 'blue'){
-        document.getElementById('theme-style').href = '/staticfiles/css/blue.css'
+        document.getElementById('theme-style').href = 'staticfiles/css/blue.css'
     }
 
     if(mode === 'green'){
-        document.getElementById('theme-style').href = '/staticfiles/css/green.css'
+        document.getElementById('theme-style').href = 'staticfiles/css/green.css'
     }
 
     if(mode === 'purple'){
-        document.getElementById('theme-style').href = '/staticfiles/css/purple.css'
+        document.getElementById('theme-style').href = 'staticfiles/css/purple.css'
     }
 
     localStorage.setItem('theme', mode)
